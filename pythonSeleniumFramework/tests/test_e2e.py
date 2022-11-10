@@ -30,10 +30,7 @@ class TestE2E(BaseClass):
         trade.get_sender().click()
         trade.get_notification().click()
         trade.get_order_confirmation()
-        print("Calins")
-        print("Calins")
-        print("Calins")
-
+        
     @pytest.fixture(params=TestData.test_data)
     def data_load(self, request):
         return request.param
