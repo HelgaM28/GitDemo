@@ -32,6 +32,9 @@ class TestE2E(BaseClass):
         trade.get_order_confirmation()
         print("Rayhona changes 1")
         print("Rayhona changes 2")
+        print("Davlagbek's changes1")
+        print("Davlagbek's changes2")
+        print("Davlagbek's changes3")
 
 
     @pytest.fixture(params=TestData.test_data)
