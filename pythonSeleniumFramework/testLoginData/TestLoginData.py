@@ -1,7 +1,6 @@
 
 
 class TestData:
-    test_data = [{"username": "HelgaM28", "password": "Verberg28"},
-                 {"username": "negative", "password": "negative28"}]
+    test_data = [{"username": "HelgaM28", "password": "Verberg28"}]
 
 
